@@ -1,0 +1,116 @@
+.career-item__box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 48px;
+}
+
+.career-item__box:last-child {
+  margin: 0;
+}
+
+.career-item__date {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  width: 240px;
+  margin: 0;
+  padding: 0;
+}
+
+.career-item__info {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 180px;
+}
+
+.career-item__logo {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+}
+
+.career-item__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 28px;
+  width: calc(100% - 104px);
+}
+
+.career-item__company {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--black100);
+  margin: 0 0 4px;
+  padding: 0;
+}
+
+.career-item__position {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--gray100);
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .career-item__info {
+    margin: 0 0 0 14px;
+  }
+
+  .career-item__date {
+    font-size: 20px;
+  }
+
+  .career-item__company {
+    font-size: 20px;
+  }
+
+  .career-item__position {
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .career-item__box {
+    flex-direction: column;
+    margin: 0 0 32px;
+    align-items: unset;
+  }
+
+  .career-item__info {
+    margin: 0;
+  }
+
+  .career-item__date {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 14px;
+  }
+
+  .career-item__company {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .career-item__position {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .career-item__text {
+    margin: 0 0 0 24px;
+  }
+}

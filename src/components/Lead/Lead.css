@@ -1,0 +1,154 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 0 152px;
+  position: relative;
+}
+
+.lead__greet {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--black80);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lead__greet-icon {
+  width: 38px;
+  height: 38px;
+  background-image: url(../../images/waving_hand.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lead__my-name {
+  color: #649CFF;
+  border-bottom: 1px solid #649CFF;
+  line-height: 38px;
+  cursor: progress;
+}
+
+.lead__title {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 120px;
+  color: var(--black100);
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.lead__subtitle {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--black80);
+  max-width: 1279px;
+  margin: 24px 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.lead__link {
+  color: #649CFF;
+  text-decoration: none;
+  border-bottom: 1px solid #649CFF;
+  cursor: pointer;
+}
+
+.lead__link-icon {
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1439px) {
+  .lead {
+    padding: 140px 0 152px;
+  }
+
+  .lead__greet {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .lead__my-name {
+    line-height: 40px;
+  }
+
+  .lead__title {
+    font-size: 80px;
+    line-height: 100px;
+    margin: 28px 0 0;
+  }
+
+  .lead__subtitle {
+    font-size: 26px;
+    line-height: 40px;
+    margin: 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 56px 0 72px;
+  }
+
+  .lead__greet {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .lead__my-name {
+    line-height: 24px;
+    color: var(--black100);
+    border-bottom: none;
+  }
+
+  .lead__title {
+    font-size: 60px;
+    line-height: 72px;
+    margin: 16px 0 0;
+  }
+
+  .lead__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .lead__link-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width:719px) {
+  .lead__greet {
+    font-size: 16px;
+  }
+
+  .lead__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+  }
+
+  .lead__link-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+export const textRu = {
+  logo: "Даниил Фурцев",
+  navLinkCases: "Проекты",
+  navLinkCareer: "Карьера",
+  navLinkContact: "Связаться со мной",
+  greeting: "Привет,",
+  iAm: "я – Даня!",
+  leadSubtitle: "Я проектирую и дизайню сайты, мобильные приложения и сложные интерфейсы. А ещё провожу исследования, руковожу дизайн-командами и веду телеграм канал",
+  sectionProject: "проекты",
+  sectionCareer: "карьера",
+  sectionContact: "связаться со мной",
+  contactParagraph: "Я всегда открыт для сотрудничества, предложений и пшеничного пива :)",
+  tooltip: "Канал о дизайне, интерфейсах, продуктах, вдохновении и всём таком",
+  projectBtn: "Смотреть проект на Behance",
+  soon: "Скоро я расскажу об этом проекте больше",
+};
+
+export const textEn = {
+  logo: "Daniil Furtsev",
+  navLinkCases: "Cases",
+  navLinkCareer: "Career",
+  navLinkContact: "Contact me",
+  greeting: "Hey,",
+  iAm: "I’m Danil",
+  leadSubtitle: "I design websites, mobile applications and complex interfaces. I also conduct research, manage design teams and own a Telegram channel called",
+  sectionProject: "cases",
+  sectionCareer: "career",
+  sectionContact: "contact me",
+  contactParagraph: "I'm always open for cooperation, suggestions and wheat beer :)",
+  tooltip: "A channel about design, interfaces, products, inspiration and more",
+  projectBtn: "See on Behance",
+  soon: "I will reveal more soon",
+};

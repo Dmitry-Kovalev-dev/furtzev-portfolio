@@ -1,0 +1,26 @@
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 660px);
+  gap: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project-list {
+    grid-template-columns: repeat(2, minmax(468px, 683px));
+    gap: 32px 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .project-list {
+    grid-template-columns: repeat(2, minmax(332px, 484px));
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
